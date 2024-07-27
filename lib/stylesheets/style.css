@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", sans-serif; 
+}
+/* HEAD STYLING SECTION  */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+.navlogo img{
+    width: 300px;
+}
+.navlinks ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+.navlinks ul li a{
+    color: #ababab;
+    font-weight: 400;
+    text-decoration: none;
+}
+.navlinks ul li a:hover{
+    color: #00c3a5 !important;
+    font-weight: 400;
+}
+.active{
+    color: #00c3a5 !important;
+    font-weight: 400;
+}
+/* INTRO STYLING SECTION  */
+.intro{
+    text-align: center;
+}
+.intro h1{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #00c3a5;
+}
+.intro img {
+    width: 60px;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-left: 270px;
+}
+.text1{
+    text-align: start;
+    color: #747474;
+}
+/*Main-section-styling*/
+
+.second-section{
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction:row ;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 20px;
+
+}
+.patients {
+    background-color: #00ccb1;
+    width: 300px;
+    height: 345px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.patients img{
+    padding-top: 40px;
+}
+.patients h2 {
+    color: white;
+    padding-top: 20px;
+
+}
+.patients p{
+    color: white;
+    padding-top: 20px;
+}
+
+.select1 {
+    padding-top: 70px;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    background-color: #00ccb1;
+    text-decoration: underline;
+    border: none;
+    margin-top: 80px;
+    padding-top: 0px;
+}
+.Doctors {
+    background-color: #3d83df;
+    width: 300px;
+    height: 345px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.Doctors img{
+    padding-top: 40px;
+}
+.Doctors h2{
+    color: white;
+    padding-top: 20px;
+
+}
+.Doctors p{
+    color: white;
+    padding-top: 20px;
+}
+.select2 {
+    padding-top: 70px;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    background-color: #3d83df;
+    text-decoration: underline;
+    border: none;
+    margin-top: 80px;
+    padding-top: 0px;
+}
+.clinic {
+    background-color: #1b2734;
+    width: 300px;
+    height: 345px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.clinic img{
+    padding-top: 40px;
+}
+.clinic h2{
+    color: white;
+    padding-top: 20px;
+
+}
+.clinic p{
+    color: white;
+    padding-top: 20px;
+}
+.select3 {
+    padding-top: 70px;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    background-color: #1b2734;
+    text-decoration: underline;
+    border: none;
+    margin-top: 40px;
+    padding-top: 0px;
+}
+/*LOGO-STYLING-SECTION*/
+     .logos-section{
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+        padding-left: 340px;
+        padding-right: 300px;
+        gap: 200px;
+     }
+     .logo-text {
+        color: #00b39b;
+        justify-content: center;
+
+     }
+     .logos{
+        flex-wrap: wrap;
+        display: flex;
+        gap: 2rem;    
+    }
+     .logos img{
+        width: 5rem;
+     }
+    
+
+
+
+/*ACHIEVEMENTS-STYLING-SECTION*/
+
+.achievements {
+    background-color: #d0faf4;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.achievements-text h2{
+     color: #00b39b;
+     padding-top: 40px;
+    
+}
+.achievements-text p{
+    color: #747474;
+}
+.achievements p{
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.achievements-text {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.achievements-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-items: center;
+}
+.achievements-div1{
+    margin-top: 60px;
+}
+.achievements-div2{
+    margin-top: 40px;
+}
+.achievements1{
+    background-color: white;
+    width: 220px;
+    height: 250px;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.achievements1 h3{
+    color: #00b39b;
+    padding-top: 10px;
+
+}
+.achievements1 p{
+    color: #747474;
+    padding-top: 10px;
+    font-size: small;
+}
+.achievements2{
+    background-color: white;
+    width: 220px;
+    height: 250px;
+    text-align: center;
+    padding-top: 30px; 
+    margin-top: 30px;
+    border-radius: 2px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.achievements2 h3{
+    color: #00b39b;
+}
+.achievements2 p{
+    color: #747474; 
+    font-size: small; 
+}
+.achievements3{
+    background-color: white;
+    width: 220px;
+    height: 250px;
+    text-align: center;  
+    border-radius: 2px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.achievements3 h3{
+    color: #00b39b;
+    letter-spacing: -0.3px;
+}
+.achievements3 p{
+    color: #747474;
+    font-size: small;
+}
+.achievements4{
+    background-color: white;
+    width: 220px;
+    height: 250px;
+    text-align: center; 
+    padding-top: 30px; 
+    margin-top: 30px; 
+    border-radius: 2px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.achievements4 h3{
+    color: #00b39b;
+}
+.achievements4 p{
+    color: #747474;
+    font-size: small;
+}
+
+/*IMPROVE-STYLING-SECTION*/
+.improve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 180px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.improve h3{
+    color: #00b39b;
+    padding-bottom: 20px;
+    padding-left: 290px;
+    padding-right: 290px;
+    text-align: center;
+}
+.improve p{
+    color: #747474;
+}
+/*PLACES-STYLING-SECTION*/
+.places-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 270px;
+    padding-right: 250px;
+}
+.places-div1{
+    border-radius: 3%;
+}
+.places-div1:hover{
+    box-shadow: 0px 4px 15px 0px #747474;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    color: #747474;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.places-div1 button{
+    color: white;
+    background-color: #3d83df;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border-color: #3d83df;
+    align-items: center;
+    cursor: pointer;
+}
+/*JOIN-US-SECTION*/
+.join-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join-us h1{
+    padding-top: 40px;
+    color: #747474;
+    padding-bottom: 20px;
+}
+.join-us button{
+    color: white;
+    background-color: #3d83df;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border-color: #3d83df;
+    align-items: center;
+    padding: 10p 10px; 
+    box-shadow: 0px 0px; 
+    cursor: pointer;
+}
+.join-us button:hover{
+    box-shadow:0px 5px 15px 1px #3d83df;
+}
+footer{
+    text-align: center;
+    color: #ababab;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: #3d83df;
+}
+footer a:hover{
+    color: #00c3a5;
+}
